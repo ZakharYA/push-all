@@ -1,0 +1,23 @@
+{
+  "name": "push-all",
+  "description": "Обёртка на node.js для pushall.ru",
+  "author": {
+    "name": "Zakhar",
+    "email": "zaharsd7@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ZakharYA/push-all/issues"
+  },
+  "dependencies": {
+    "node-fetch": "latest",
+    "form-data": "latest"
+  },
+  "homepage": "https://github.com/ZakharYA/push-all",
+  "license": "MIT",
+  "main": "lib/index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZakharYA/push-all.git"
+  },
+  "version": "1.0.0"
+}
