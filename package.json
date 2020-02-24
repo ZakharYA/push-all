@@ -1,10 +1,7 @@
 {
   "name": "push-all",
   "description": "Обёртка на node.js для pushall.ru",
-  "author": {
-    "name": "Zakhar",
-    "email": "zaharsd7@gmail.com"
-  },
+  "author": "Zakhar <zaharsd7@gmail.com>",
   "bugs": {
     "url": "https://github.com/ZakharYA/push-all/issues"
   },
@@ -19,5 +16,8 @@
     "type": "git",
     "url": "git+https://github.com/ZakharYA/push-all.git"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "directories": {
+    "lib": "lib"
+  }
 }
