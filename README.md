@@ -5,7 +5,8 @@
 ```
 npm i push-all
 ```
-
+|[Документация](documentation.md)
+|---------------------------|
 ## Пример
 ```js
 const pushAll = require('push-all');
