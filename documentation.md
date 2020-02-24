@@ -1,4 +1,4 @@
-##Документация
+## Документация
 > Здесь находится базовая документация к этой библиотеке, полностью ознакомиться с документацией Вы можете на <a href="pushall.ru">PushAll</a>.
 
 
@@ -11,7 +11,7 @@ const push = new pushAll({
 });
 ```
 
-##selfSend
+## selfSend
 
 Отправка пуша самому себе
 
@@ -21,7 +21,7 @@ push.selfSend({
     text: 'Это пример'
 }); // => Promise
 ```
-##broadcastSend
+## broadcastSend
 
 Отправка пуша всем подписчикам канала
 
@@ -31,7 +31,7 @@ push.broadcastSend({
     text: 'Это пример'
 }); // => Promise
 ```
-##multicastSend
+## multicastSend
 
 Отправка определённым подписчикам пуш
 
@@ -43,7 +43,7 @@ push.multicastSend({
 }); // => Promise
 ```
 
-##unicastSend
+## unicastSend
 
 Отправка пуша одному подписчику канала
 
@@ -55,7 +55,7 @@ push.unicastSend({
 }); // => Promise
 ```
 
-##showListGet
+## showListGet
 
 Позволяет получать ленту вашего канала, информацию о отправленных уведомлениях, информацию о ваших подписчиках.
 
